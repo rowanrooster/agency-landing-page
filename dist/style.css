@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
   margin: 0;
   line-height: 1.1;
   font-family: "Barlow", "Times New Roman", Times, serif;
+  font-weight: 900;
 }
 
 p {
@@ -123,7 +124,7 @@ img {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,6 +185,7 @@ img {
 .about-wrapper .content-box a {
   font-family: "Barlow", "Times New Roman", Times, serif;
   font-size: 1.125rem;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--d-blue);
   text-decoration: none;
@@ -285,6 +287,7 @@ img {
 .testimonials .testimonials-wrapper .testimonial .author {
   font-family: "Barlow", "Times New Roman", Times, serif;
   font-size: 1.125rem;
+  font-weight: 700;
   display: block;
   margin-top: 60px;
   margin-bottom: 5px;
