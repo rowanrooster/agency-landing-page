@@ -95,6 +95,7 @@ img {
   list-style: none;
 }
 .main-navbar .main-nav li a {
+  font-weight: bold;
   padding: 18px 30px;
   text-decoration: none;
   color: var(--white);
@@ -105,7 +106,8 @@ img {
 }
 .main-navbar .main-nav li .contact-btn {
   font-family: "Barlow", "Times New Roman", Times, serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-weight: 900;
   text-transform: uppercase;
   color: var(--d-blue);
   background-color: var(--white);
@@ -137,6 +139,7 @@ img {
 }
 .hero h1 {
   font-size: 3.375rem;
+  font-weight: 900;
   text-transform: uppercase;
   color: white;
   margin-top: -100px;
@@ -176,6 +179,7 @@ img {
 }
 .about-wrapper .content-box h2 {
   font-size: 2.625rem;
+  font-weight: 900;
   color: var(--d-blue);
 }
 .about-wrapper .content-box p {
@@ -185,7 +189,7 @@ img {
 .about-wrapper .content-box a {
   font-family: "Barlow", "Times New Roman", Times, serif;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   color: var(--d-blue);
   text-decoration: none;
@@ -240,6 +244,7 @@ img {
 .services-wrapper .services-item .service-box h3 {
   margin-bottom: 20px;
   font-size: 1.875rem;
+  font-weight: 900;
 }
 .services-wrapper .services-item img {
   width: 100%;
@@ -295,6 +300,7 @@ img {
 }
 .testimonials .testimonials-wrapper .testimonial .company {
   font-size: 0.875rem;
+  font-weight: bold;
   color: var(--l-grey);
 }
 
@@ -323,6 +329,7 @@ img {
   margin-top: 2.5rem;
 }
 .footer .footer-menu a {
+  font-weight: bold;
   margin: 0 20px;
   color: var(--l-green);
   transition: all 0.2s ease;
@@ -346,6 +353,9 @@ img {
 }
 .footer .social-menu a img:hover {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(38deg) brightness(106%) contrast(200%);
+}
+.footer .social-menu a span {
+  display: none;
 }
 
 @keyframes upDown {
