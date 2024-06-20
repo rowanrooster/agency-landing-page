@@ -4,13 +4,20 @@
 
 body {
     margin: 0;
-    font-size: 1rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4 {
     margin: 0;
+    line-height: 1.1;
+    font-family: 'Barlow', 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0;
+    line-height: 1.8;
 }
 
 a, a:hover {
