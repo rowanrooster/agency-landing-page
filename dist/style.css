@@ -68,7 +68,7 @@ img {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  src: url("../../assets/fonts/fraunces-v31-latin-900.woff2") format("woff2"), url("../../assets/fonts/Fraunces_72pt-Bold.ttf") format("truetype");
+  src: url("../../assets/fonts/fraunces-v31-latin-900.woff2") format("woff2"), url("../../assets/fonts/Fraunces_72pt-Black.ttf") format("truetype");
 }
 .main-navbar {
   width: 100%;
